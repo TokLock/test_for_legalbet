@@ -1,0 +1,17 @@
+$desktop: 744px;
+
+@mixin desktop {
+  @media screen and (min-width: $desktop){
+    @content;
+  }
+}
+
+//colors
+$white: #fff;
+$black80: rgba(0, 0, 0, 0.80);
+$black60: rgba(0, 0, 0, 0.60);
+$black40: rgba(0, 0, 0, 0.40);
+$gray: #A1AAB2;
+$green: #62B435;
+$red: #F64747;
+$blue: #3498DB;
